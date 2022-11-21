@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Começo do estilo do Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .5rem 1.5rem;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.header .perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Fim do estilo do Header */
+
+/* Início do estilo do main */
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem 2rem;
+  gap: 1rem;
+}
+
+/* Fim do estilo do Main */
+
+/* Começo do estilo do section */
+
+.section {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section .video p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section .videoContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.section .videoContent .canal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.section .videoContent .canal .infoCanal {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section .videoContent .canal .infoCanal .inscritos {
+  color: #515151;
+}
+
+.section .videoContent .inscrever {
+  background-color: red;
+  color: #fff;
+  padding: .5rem 1.5rem;
+  border: 1px solid red;
+  border-radius: 2px;
+}
+
+.section .videoContent .botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.section .videoContent .botoes p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section .informacao {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.section .informacao .data {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section .informacao .videoDescricao {
+  font-size: 14px;
+  font-weight: 400;
+  color: #515151;
+}
+
+/* Fim do estilo do section */
+
+/* Início do estilo do aside */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.sidebar .opcao {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar .opcao .opcaoInfo {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  margin-left: .5rem;
+}
+
+.sidebar .opcao .opcaoInfo .opcaoInfoTitulo {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar .opcao .opcaoInfo p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #515151;
+}
+
+/* Fim do estilo do aside */
