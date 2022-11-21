@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Começo do estilo do Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .5rem 1.5rem;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.header .perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Fim do estilo do Header */
+
+/* Início do estilo do main */
+.main {
+  display: grid;
+  grid-template-areas: "menu section section section";
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+/* Fim do estilo do main */
+
+/* Início do estilo do sidebar */
+.main .menu {
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 14px;
+  font: 400;
+}
+
+.main .menu i {
+  margin-right: .5rem;
+}
+
+/* Fim do estilo do sidebar */
+
+/* Início do estilo do section */
+.main .section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1.5rem;
+}
+
+.main .section img {
+  width: 250px;
+}
+
+.main .section .opcaoInfo {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  font-size: 12px;
+  font-weight: 400;
+  padding: .5rem;
+}
+
+.main .section .opcaoInfo img {
+  width: 25px;
+  height: 25px;
+}
+
+.main .section .opcaoInfo .opcaoInfoTitulo {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+/* Fim do estilo do section */
