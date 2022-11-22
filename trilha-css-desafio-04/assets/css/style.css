@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #23272A;
+}
+
+/* Estilo do header */
+header {
+  min-height: 50vh;
+  background: url(../img/Header\ Background.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header .header-title {
+  width: 50%;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.header .header-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.header .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header .buttons .button {
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.header .buttons .button.button-dark {
+  color: #fff;
+  background-color: #23272A;
+}
+
+/* Estilo do header */
+
+/* Estilo do Main */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo do Main */
+
+/* Estilo do Content */
+.main .content {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.5rem 0;
+}
+
+.main .content .content-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.main .content .content-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Estilo do Content */
+
+/* Estilo do Content-center */
+.main .content-center {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.5rem 0;
+}
+
+.main .content-center .content-center-title {
+  width: 50%;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main .content-center .content-center-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Estilo do Content-center */
+
+/* Estilo do Footer */
+.footer {
+  height: 8vh;
+  background-color: #23272A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  width: 150px;
+}
+
+/* Estilo do Footer */
