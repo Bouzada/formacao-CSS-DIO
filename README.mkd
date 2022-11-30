@@ -1,6 +1,6 @@
 # Formação CSS Web Developer
 
-Nesse repositório encontrasse todos os desafios que foram elaborados dentro da formação, a formação aborda desde os fundamentos do CSS e estilizações básicas até pseudo-elementos, transições e animações.
+Nesse repositório encontram-se todos os desafios que foram elaborados dentro da formação, ela aborda desde os fundamentos do CSS e estilizações básicas até pseudo-elementos, transições e animações.
 
 ## Projetos
 
@@ -14,3 +14,6 @@ Nesse repositório encontrasse todos os desafios que foram elaborados dentro da 
 
 - [Projeto 4](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-04)
   (O Layout foi baseado em uma página do Discord, dos projetos foi o único a ter algum tratamento de responsividade.)
+
+- [Projeto 5](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-05)
+  (Em construção.)
