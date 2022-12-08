@@ -9,11 +9,12 @@ Nesse repositório encontram-se todos os desafios que foram elaborados dentro da
 
 - [Projeto 2](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-02)
   (O Layout do projeto foi baseado na página do Youtube quando estamos assistindo um vídeo.)
+
 - [Projeto 3](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-03)
   (O Layout do projeto foi baseado na página principal do Youtube.)
 
 - [Projeto 4](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-04)
   (O Layout foi baseado em uma página do Discord, dos projetos foi o único a ter algum tratamento de responsividade.)
 
-- [Projeto 5](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-05)
-  (Em construção.)
+- [Projeto 5](https://github.com/Bouzada/formacao-CSS-DIO/tree/main/trilha-css-desafio-05_HBOMAX)
+  (Esse é o projeto final da formação, foi desenvolvido para testar nossas habilidades desenvolvidas durante a formação. Ele foi baseado na página da HBO MAX.)
