@@ -23,23 +23,3 @@
 
   scroll-behavior: smooth;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
-}
-
-.button {
-  padding: 16px 40px;
-  background-color: var(--tertiary-color);
-  border-radius: 500px;
-  font-weight: 700;
-  color: var(--text-color);
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 4px;
-  border: none;
-  cursor: pointer;
-}
